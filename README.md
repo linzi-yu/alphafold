@@ -163,7 +163,11 @@ with 12 vCPUs, 85 GB of RAM, a 100 GB boot disk, the databases on an additional
     create a
     [Python Virtual Environment](https://docs.python.org/3/tutorial/venv.html)
     to prevent conflicts with your system's Python environment.
-
+    In delonix-7920, alphafold python environment was built in alphafold/alphafold-env, 
+    Use the following code to activate python environment before running the main algorithms:
+    ```bash
+    source alphafold/alphafold-env/bin/activate
+    ```
     ```bash
     pip3 install -r docker/requirements.txt
     ```
